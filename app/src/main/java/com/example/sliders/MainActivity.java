@@ -15,15 +15,6 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Set the window size of the app to fullscreen
-        // NOW this is done in the activity_main.xml file
-        // Window window = getWindow();
-        /*window.setFlags(
-                WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN
-        );*/
-
-        // Set content view to game, so that objects in game class can be rendered to screen
         // Normally:
         // setContentView(R.layout.activity_main);
         setContentView(new Game(this));
