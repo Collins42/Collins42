@@ -16,11 +16,11 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
 
         // Set the window size of the app to fullscreen
-        Window window = getWindow();
-        window.setFlags(
+        //Window window = getWindow();
+        /*window.setFlags(
                 WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN
-        );
+        );*/
 
         // Set content view to game, so that objects in game class can be rendered to screen
         setContentView(new Game(this));
